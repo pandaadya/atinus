@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amazon header</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+   
+    <style>
+      @media screen and (min-width: 992px) {
+   .header{
+    flex-direction: row;
+   }
+  }
+  @media screen and (max-width: 932px) {
+        .sub1{
+         flex-direction: column;
+        }
+       }
+       @media screen and (max-width: 992px) {
+   .outter{
+    flex-direction: column;
+   }
+  }
+  @media screen and (max-width: 992px) {
+   .outter2{
+    flex-direction: column;
+   }
+  }
+  @media screen and (max-width: 300px) {
+   #footer{
+    flex-direction: row;
+   }
+  }
+  
+ 
+    </style>
+  </head>
+  
+   <div>
+    <header class="header">
+        <div class="header-start">
+             <div class="header-logo">
+              <img src="atinus.jpg" height="80px" width="100px" alt="amazon-logo" >
+             </div>
+             <div class="header-address">
+               <div class="header-address-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                         <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                         <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                       </svg>
+               </div>
+               <div class="header-address-right">
+                    <span class="opacity-75" style="font-size:small ;">Delivery to Adya</span>
+                    <span>Bhubaneswar 751012</span>
+               </div>
+              
+             </div>
+        </div>
+        <div class="header-center bg-warning">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        All
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="laptop.html">Laptop</a></li>
+                        <li><a class="dropdown-item" href="television.html">Television</a></li>
+                        <li><a class="dropdown-item" href="iphone.html">Iphone</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="wash.html">Washingmachine</a></li>
+                      </ul>
+                    </div>
+            <input style="width:200px; flex-grow:7;" type="text">
+             <svg style="flex-grow:1" class="mt-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+               <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+             </svg>
+        </div>
+        <div class="header-end">
+             <div class="header-language">
+              <span>English</span>
+               <img class="img1" src="./india.png" width="30px" height="30px" alt="country logo" >
+              
+             </div>
+             <div class="header-account">
+              <span class="opacity-75" style="font-size:small ;">Hellow,Adya</span>
+              <span>Accounts & Lists</span>
+              <span><a href="form2.html"><button>click to Sign in</button></a></span>
+            </div>
+            <div class="header-orders">
+              <span class="opacity-75" style="font-size:small ;">Returns</span>
+              <span>& Orders</span>
+            </div>
+            <div class="header-cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                <span>3</span>
+                <span>cart</span>
+              </svg>
+            </div>
+        </div>
+    </header>
+
+    <div class="header2">
+      
+        <div class="f1">
+          <span class="span">All</span>
+        </div>
+        
+        <div class="f1">
+            Fresh
+        </div>
+        <div class="f1">
+            prime
+        </div>
+        <div class="f1">
+           Subscribe & Save
+        </div>
+        <div class="f1">
+            Amazon Pay
+        </div>
+        <div class="f1">
+            Buy Again
+        </div>
+        <div class="f1">
+            GiftCards
+        </div>
+        <div class="f1">
+            Baby
+        </div>
+        <div class="f1">
+            Coupons
+        </div>
+        <div class="f1">
+            GiftIdea
+        </div>
+        <div class="f2" ">
+        <div class="p2">Watch now |<span><h4>Amazon Prime Vedio</h4></span>
+        </div>
+        <!-- <p class="opacity-50">Redirects to primevedio.com</p> -->
+        </div>
+     </div>
+    </div>
+    <div>
+     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="#" target="blank">
+              <img src="new.jpg" class="d-block w-100" alt="..." height="50%">
+              <div class="carousel-caption d-none d-md-block">
+                <h2 style="color:goldenrod">Click to see the products</h2>
+               
+              </div>
+            </div>
+            </a>
+            <div class="carousel-item">
+              <a href="laptop.html" target="blank">
+                <img src="laptop.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 style="color:white">Click to see the products</h2>
+                 
+                </div>
+              </a>
+           
+            </div>
+           
+          <div class="carousel-item">
+            <a href="iphone.html" target="blank">
+              <img src="iphone2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h2 style="color:white">Click to see the products</h2>
+               
+              </div>
+            </a>
+         
+          </div>
+          <a href="television.html" target="blank">
+            <div class="carousel-item">
+              <img src="tele.jpg" class="d-block w-100" alt="..." >
+              <div class="carousel-caption d-none d-md-block">
+                <h2 style="color:black">Click to see the products</h2>
+               
+              </div>
+            </div>
+          </a>
+          <a href="wash.html" target="blank">
+            <div class="carousel-item">
+              <img src="wash.jpg" class="d-block w-100" alt="..." >
+              <div class="carousel-caption d-none d-md-block">
+                <h2 style="color:black">Click to see the products</h2>
+               
+              </div>
+            </div>
+          </a>
+         
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container2">
+        <div class="outter2">
+            <div class="inner3">
+                <div class="grow">
+                    <img src="p.jpg" style="width:90%;height:100%;">
+                </div>
+                <div class="grow">
+                    <img src="g2.jpg" style="width:90%;height:100%;">
+                </div>
+                <div class="grow">
+                    <img src="o2.jpg" style="width:90% ; height:100%;">
+                </div>
+            </div>
+            <div class="inner4">
+                <div class="grow">
+                    <img src="pressure.jpg" style="width:90%;height:100%;">
+                </div>
+                <div class="grow">
+                    <img src="roller2.jpg" style="width:90%;height:100%;">
+                </div>
+                <div class="grow">
+                    <img src="box.jpg" style="width:90% ; height:100%;">
+                </div>
+            </div>
+       </div>
+    </div>
+    <div class="container2">
+      <div class="outter2">
+          <div class="inner3">
+              <div class="grow">
+                  <img src="fashion.jpg" style="width:90%;height:100%;">
+              </div>
+              <div class="grow">
+                  <img src="plant.jpg" style="width:90%;height:100%;">
+              </div>
+              <div class="grow">
+                  <img src="sofa.jpg" style="width:90% ; height:100%;">
+              </div>
+          </div>
+          <div class="inner4">
+              <div class="grow">
+                  <img src="home.jpg" style="width:90%;height:100%;">
+              </div>
+              <div class="grow">
+                  <img src="elec.jpg" style="width:90%;height:100%;">
+              </div>
+              <div class="grow">
+                  <img src="watch.jpg" style="width:90% ; height:100%;">
+              </div>
+          </div>
+     </div>
+  </div>
+  <div class="container2">
+    <div class="outter2">
+        <div class="inner3">
+            <div class="grow">
+                <img src="alexa.jpg" style="width:90%;height:100%;">
+            </div>
+            <div class="grow">
+                <img src="bag.jpg" style="width:90%;height:100%;">
+            </div>
+            <div class="grow">
+                <img src="born.jpg" style="width:90% ; height:100%;">
+            </div>
+        </div>
+        <div class="inner4">
+            <div class="grow">
+                <img src="shose.jpg" style="width:90%;height:100%;">
+            </div>
+            <div class="grow">
+                <img src="speaker.jpg" style="width:90%;height:100%;">
+            </div>
+            <div class="grow">
+                <img src="helmet.jpg" style="width:90% ; height:100%;">
+            </div>
+        </div>
+   </div>
+</div>
+
+<footer class="page-footer font-small blue" id="footer">
+
+ 
+  <div class="footer-copyright text-center py-3" id="back" >
+    <a  href="/"> Back to top</a>
+  </div>
+  
+
+</footer>
+
+<footer class="page-footer font-small indigo" id="footer">
+
+ 
+  <div class="container text-center text-md-left">
+
+    <div class="row">
+
+     
+      <div class="col-md-3 mx-auto">
+
+       
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Get to know Us</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">About Us</a>
+          </li>
+          <li>
+            <a href="#!">Careers</a>
+          </li>
+          <li>
+            <a href="#!">Press Releases</a>
+          </li>
+          <li>
+            <a href="#!">amazon Science</a>
+          </li>
+        </ul>
+
+      </div>
+      
+
+      <hr class="clearfix w-100 d-md-none">
+
+     
+      <div class="col-md-3 mx-auto">
+
+        
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Connect with Us</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Facebppk</a>
+          </li>
+          <li>
+            <a href="#!">Twitter</a>
+          </li>
+          <li>
+            <a href="#!">Instagram</a>
+          </li>
+          
+        </ul>
+
+      </div>
+     
+
+      <hr class="clearfix w-100 d-md-none">
+
+     
+      <div class="col-md-3 mx-auto">
+
+       
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Make Money With Us</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Sell on your Amazon</a>
+          </li>
+          <li>
+            <a href="#!">Sell under Amazon Accelerator</a>
+          </li>
+          <li>
+            <a href="#!">Amazon Global Selling</a>
+          </li>
+          <li>
+            <a href="#!">Become an Affiliate</a>
+          </li>
+          <li>
+            <a href="#!">Fulfilment by Amazon</a>
+          </li>
+          <li>
+            <a href="#!">Advertise Your Products</a>
+          </li>
+          <li>
+            <a href="#!">Amazon Pay on Merchants</a>
+          </li>
+        </ul>
+
+      </div>
+      
+
+      <hr class="clearfix w-100 d-md-none">
+
+    </div>
+
+
+  </div>
+ 
+
+    
+
+    </div>
+ 
+  </div>
+  
+  
+  
+</footer>
+<footer class="page-footer font-small indigo" id="last" id="footer">
+
+ 
+  <div class="container text-center text-md-left">
+
+    <div class="row">
+
+     
+      <div class="col-md-3 mx-auto">
+
+       
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4"></h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">
+              AbeBooks</li>
+              <li>Books, art</li>
+              <li>& collectibles</li>
+          </li></a><br>
+          <li>
+            <a href="#!">
+               Shopbop</li>
+              <li>Designer</li>
+              <li></li>Fashion Brands</li>
+          </li></a>
+        </ul>
+
+      </div>
+      
+
+      <hr class="clearfix w-100 d-md-none">
+
+     
+      <div class="col-md-3 mx-auto">
+
+        
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4"></h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">
+              Amazon Web Services</li>
+              <li>Scalable Cloud</li>
+              <li></li>Computing Services</li>
+          </li></a><br>
+          <li>
+            <a href="#!">
+              Amazon Business</li>
+              <li>Everything For</li>
+              <li></li> Your Business</li>
+          </li></a>
+          
+        </ul>
+
+      </div>
+     
+
+      <hr class="clearfix w-100 d-md-none">
+
+     
+      <div class="col-md-3 mx-auto">
+
+       
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Make Money With Us</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">
+              Audible</li>
+              <li>E
+                Download</li>
+              <li></li>Audio Books </li>
+          </li></a>
+          <li>
+            <a href="#!">
+              prime Now</li>
+              <li>2-Hour Delivery</li>
+              <li></li>  on Everyday Items</li>
+          </li></a>
+        </ul>
+
+      </div>
+      <div class="col-md-3 mx-auto">
+
+       
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4"></h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">
+              DPReview</li>
+              <li>Digital</li>
+              <li>Photography</li>
+          </li></a><br>
+          <li>
+            <a href="#!">
+             Amazon Prime Music</li>
+              <li>
+                90 million songs, ad-free</li>
+              <li></li>Over 15 million podcast episodes		 
+              </li>
+          </li></a>
+        </ul>
+
+      </div>
+    
+      
+      
+      
+
+      <hr class="clearfix w-100 d-md-none">
+
+    </div>
+
+
+  </div>
+ 
+
+    
+
+    </div>
+ 
+  </div>
+  
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="/"> Conditions of Use & Sale
+      Privacy Notice
+      Interest-Based Ads
+      © 1996-2022, Amazon.com, Inc. or its affiliates</a>
+  </div>
+  
+</footer>
+
+      
+      
+   
+       
+    
+
+
+
+        
+        
+       
+       
+
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
